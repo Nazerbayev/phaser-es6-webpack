@@ -36,7 +36,7 @@ Navigate to the cloned repo’s directory.
 
 Run:
 
-```npm install``` 
+```npm install```
 
 or if you choose yarn, just run ```yarn```
 
@@ -62,6 +62,11 @@ Run:
 This will optimize and minimize the compiled bundle.
 
 ## Credits
+
+Forked from Leandro Cabrera's repository:
+
+https://github.com/lean/phaser-es6-webpack
+
 Big thanks to this great repos:
 
 https://github.com/belohlavek/phaser-es6-boilerplate

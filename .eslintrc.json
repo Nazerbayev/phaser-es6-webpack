@@ -1,7 +1,26 @@
 {
-  "extends": "standard",
-  "parserOptions": {
-    "ecmaVersion": 6,
-    "sourceType": "module"
-  }
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "globals": {
+        "__DEV__": false,
+        "window": false,
+        "document": false
+    },
+    "rules": {
+        "no-unsafe-negation": "error",
+        "valid-jsdoc": "warn",
+        "block-scoped-var": "warn",
+        "array-callback-return": "warn",
+        "complexity": ["error", 20],
+        "eqeqeq": ["error", "smart"],
+        "no-alert": "error",
+        "no-caller": "error",
+        "no-eval": "error",
+        "no-shadow": "error",
+        "comma-style": "error",
+        "indent": ["error", 4]
+    }
 }

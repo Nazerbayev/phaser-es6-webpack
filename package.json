@@ -2,12 +2,13 @@
   "name": "PhaserES6Webpack",
   "version": "1.0.0",
   "description": "",
-  "author": "leandro cabrera <leandcabrera@gmail.com>",
+  "author": "William Bettencourt <williambet@gmail.com>",
   "main": "index.js",
   "scripts": {
     "dev": "webpack",
     "deploy": "webpack --config webpack.production.config.js",
-    "test": "eslint ./src/**/**.js"
+    "test": "eslint ./src/**/**.js",
+    "lint": "eslint ./src/**/**.js"
   },
   "license": "MIT",
   "devDependencies": {
